@@ -1,31 +1,40 @@
 <%- include('partials/header.ejs') %>
 
     <body>
-            <%- include('partials/navbar.ejs') %>
-
-                <form class="container">
-                    <div class="form-group">
-                        <label for="exampleInputEmail1"></label>
-                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
-                            placeholder="Seu email">
-
+        <section class="Form my-4 mx-5n">
+            <div class="container">
+                <div class="row no-gutters">
+                    <div class="col-lg-5">
+                        <img src="/img/chip.jpg" class="img-fluid" alt="Logo OS System" id="img-logo">
                     </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1"></label>
-                        <input type="password" class="form-control" id="password" placeholder="Senha">
+                    <div class="col-lg-7 px-5 pt-5">
+                        <h1>OS SYSTEM</h1>
+                        <br>
+                        <form>
+                            <div class="form-row">
+                                <div class="col-lg-7">
+                                    <input type="email" placeholder="Digite seu email aqui"
+                                        class="form-control my-1 p-4">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-lg-7">
+                                    <input type="password" placeholder="******" class="form-control my-3 p-4">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-lg-7">
+                                    <button type="button" class="btn1">Entrar</button>
+                                </div>
+                            </div>
+                            <br>
+                            <p>Esqueceu sua senha , <a href="#">Clique Aqui</a></p>
+                            <p>Não possui conta, <a href="#newusers.ejs">Clique aqui</a></p>
+                        </form>
                     </div>
-                    <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Clique em mim</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary" class="form-group">Enviar</button>
-                </form>
-
-            <footer>
-                <div class="footer">
-                    Aqui é o rodapé!!!
                 </div>
-            </footer>
+            </div>
+        </section>
     </body>
 
     <%- include('partials/footer.ejs') %>
