@@ -16,11 +16,26 @@
                                     <input type="email" placeholder="Digite seu email aqui"
                                         class="form-control my-1 p-4">
                                 </div>
-                            </div>
+                            </div>    
+                            <div class="form-row" id="emailerror">
+                                <div class="col-lg-7">
+                                    <input type="hidden" placeholder="Digite em formato de email" class="form-control my-1 p-1" name="erroremail">
+                                </div>
+                            </div>    
+                            
                             <div class="form-row">
                                 <div class="col-lg-7">
                                     <input type="password" placeholder="******" class="form-control my-3 p-4">
                                 </div>
+                            </div>
+                            <div class="form-row" id="senhaerror">
+                                <div class="col-lg-7">
+                                    <input type="hidden" name="errorsenha" placeholder="Digite em formato de email" class="form-control my-1 p-1">
+                                </div>
+                            </div>
+                            <div class="checkbox">
+                            <input type="checkbox" name="showpassword">
+                            Mostrar Senha
                             </div>
                             <div class="form-row">
                                 <div class="col-lg-7">
@@ -35,6 +50,7 @@
                 </div>
             </div>
         </section>
+
     </body>
 
     <%- include('partials/footer.ejs') %>

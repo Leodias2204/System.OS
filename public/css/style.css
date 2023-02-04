@@ -24,6 +24,12 @@ body {
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 12%, rgba(15, 15, 152, 1) 56%, rgba(15, 19, 154, 1) 57%, rgba(0, 212, 255, 1) 100%);
 }
+.checkbox {
+    text-align: justify;
+    padding-bottom: 10px;
+    
+}
+
 
 .btn1 {
     border: none;
@@ -42,8 +48,4 @@ body {
     color: black;
     transition: 1.5s;
     border: 1px;
-}
-
-@media (max-width: 600px) {
-    #img-logo{display: none;}
 }

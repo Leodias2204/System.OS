@@ -14,4 +14,8 @@ app.get("/login", (req,res) => {
     res.render("login")
 })
 
+app.get("/", (req,res) => {
+    res.render("index")
+})
+
 app.listen(3377,() => {console.log('App Rodando')})
