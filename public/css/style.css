@@ -10,16 +10,20 @@
     padding-left: 55vh;
     padding-right: 55vh;    
 }
-.principal {
-    
+.container-cadastro{
+    text-align: center;
+    padding-left: 70vh;
+    padding-right: 70vh;    
 }
-
+input {
+    text-align: center;
+}
 .container {
     padding-top: 10px;
 }
 h1 {
     font-family: 'Orbitron', sans-serif;
-    font-size:xx-large;
+    font-size:40px;
     padding-top: 30%;
 }
 body {
@@ -66,6 +70,3 @@ body {
     align-items: right;
 }
 
-.foot {
-    
-}

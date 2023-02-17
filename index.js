@@ -23,10 +23,10 @@ app.get("/login", (req,res) => {
 
 app.get("/", (req,res) => {
     res.render("index")
-    const login = req.body.login
-    const newuser = req.body.newuser
+})
 
-    
+app.get("/newusers", (req,res) => {
+    res.render("newusers")
 })
 
 
