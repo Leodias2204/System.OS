@@ -18,7 +18,9 @@ app.use(bodyParser.urlencoded({extended: false }))
 app.use(bodyParser.json()) 
 
 app.get("/login", (req,res) => {
-    res.render("login")
+
+    
+    
 })
 
 app.get("/", (req,res) => {
@@ -28,6 +30,8 @@ app.get("/", (req,res) => {
 app.get("/newusers", (req,res) => {
     res.render("newusers")
 })
-
+app.get("/forgetpassword", (req,res) => {
+    res.render("forgetpassword")
+})
 
 app.listen(3377,() => {console.log('Servidor rodando na porta 3377')})

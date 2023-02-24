@@ -16,35 +16,37 @@
                                     <input type="email" placeholder="Digite seu email aqui"
                                         class="form-control my-1 p-4">
                                 </div>
-                            </div>    
+                            </div>
                             <div class="form-row" id="emailerror">
                                 <div class="col-lg-7">
-                                    <input type="hidden" placeholder="Digite em formato de email" class="form-control my-1 p-1" name="erroremail">
+                                    <input type="hidden" placeholder="Digite em formato de email"
+                                        class="form-control my-1 p-1" name="erroremail">
                                 </div>
-                            </div>    
-                            
+                            </div>
+
                             <div class="form-row">
                                 <div class="col-lg-7">
-                                    <input type="password" placeholder="******" class="form-control my-3 p-4">
+                                    <input type="password" placeholder="******" class="form-control my-3 p-4" name ="password">
                                 </div>
                             </div>
                             <div class="form-row" id="senhaerror">
                                 <div class="col-lg-7">
-                                    <input type="hidden" name="errorsenha" placeholder="Digite em formato de email" class="form-control my-1 p-1">
+                                    <input type="text" id ="errorPassword" placeholder="Digite uma senha válida"
+                                        class="form-control my-1 p-1">
                                 </div>
                             </div>
                             <div class="checkbox">
-                            <input type="checkbox" name="showpassword">
-                            Mostrar Senha
+                                <input type="checkbox" id ="sPassword" onclick="showPassword()">
+                                Mostrar Senha
                             </div>
                             <div class="form-row">
                                 <div class="col-lg-7">
-                                    <button type="button" class="btn1">Entrar</button>
+                                    <button type="button" class="btn1" onclick= Entrar() name="entrar">Entrar</button>
                                 </div>
                             </div>
                             <br>
-                            <p>Esqueceu sua senha , <a href="#">Clique Aqui</a></p>
-                            <p>Não possui conta, <a href="#newusers.ejs">Clique aqui</a></p>
+                            <p>Esqueceu sua senha , <a href="/forgetpassword">Clique Aqui</a></p>
+                            <p>Não possui conta, <a href="/newusers">Clique aqui</a></p>
                         </form>
                     </div>
                 </div>
